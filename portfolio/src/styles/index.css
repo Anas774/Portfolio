@@ -1,28 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  font-family: 'DM Sans', 'Segoe UI', sans-serif;
-  color: #25261f;
-  background: #f7f6f1;
+  font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+  color: #f1f5f9;
+  background: #080a10;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-optical-sizing: auto;
   font-weight: 400;
-  --ink: #25261f;
-  --muted: #77786f;
-  --paper: #f7f6f1;
-  --line: #e4e2d9;
-  --orange: #d7633d;
-  --green: #75836b;
-  --serif: 'DM Serif Display', Georgia, serif;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
 html { min-width: 320px; scroll-behavior: smooth; }
 body { margin: 0; min-width: 320px; min-height: 100vh; }
-body, button, a { font-family: 'DM Sans', 'Segoe UI', sans-serif; }
+body, button, a { font-family: 'Space Grotesk', 'Segoe UI', sans-serif; }
 button, a { -webkit-tap-highlight-color: transparent; }
 a { color: inherit; text-decoration: none; }
 button { color: inherit; }

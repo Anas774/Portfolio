@@ -11,7 +11,7 @@ import './styles/App.css'
 
 export default function App() {
   return (
-    <div className="portfolio-shell min-h-screen">
+    <div className="min-h-screen overflow-hidden bg-[#080a10] text-slate-100 selection:bg-lime-300 selection:text-[#080a10]">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
