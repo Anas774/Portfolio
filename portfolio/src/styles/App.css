@@ -75,8 +75,6 @@ h1, h2, p { margin-top: 0; }
 .site-footer { min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 18px; color: var(--muted); font-size: 10px; }
 .site-footer a { color: var(--ink); }
 .footer-spark { color: var(--orange); }
-
-/* Interior pages */
 .inner-page { padding: 80px 8% 102px; }
 .page-intro { max-width: 810px; margin-bottom: 54px; }
 .page-intro h1 { margin: 18px 0 16px; font-size: clamp(54px, 6vw, 76px); }
@@ -134,7 +132,6 @@ h1, h2, p { margin-top: 0; }
 .contact-signoff { display: flex; justify-content: flex-end; align-items: center; gap: 10px; margin-top: 20px; color: var(--muted); font-family: var(--serif); font-size: 14px; font-style: italic; }
 .not-found { display: flex; min-height: 60vh; flex-direction: column; justify-content: center; align-items: flex-start; }
 .not-found h1 { margin-bottom: 29px; }
-
 @media (min-width: 1500px) { .home-hero { min-height: 680px; } }
 @media (max-width: 900px) {
   .portfolio-shell { width: min(100% - 64px, 740px); }
